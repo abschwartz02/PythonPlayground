@@ -50,7 +50,32 @@ print("String[:i] + String[:i]: Always will return full " + "String"[:4] + "Stri
 unchangable = "Im forever"
 print("word[0] = 'A' Results in an error")
 
-print("len('Andrew'): " + str(len('Andrew')))
+print("len('Andrew'): " +  str(len('Andrew')))
+
+makeBig = "im big"
+print(makeBig.capitalize())
+
+makeSamll = "IM SMALL"
+print(makeSamll.lower())
+
+centeredString = ''
+
+count = 1
+while (count < 11):
+  print(centeredString.center(count, '*'))
+  count += 1
+
+doubleHW = 'HelloWorldthisismorerandomstuffHelloWorld'
+print("HelloWorld Occurrences in the String " + doubleHW + ": " + str(doubleHW.count('HelloWorld')))
+
+if (doubleHW.endswith('World')):
+  print("IT DOES")
+
+
+print(doubleHW.find("HelloWorld", 1, 5))
+
+
+
 
 
 
